@@ -12,16 +12,6 @@ import serial
 import time
   
 with serial.Serial(serdev, 115200, timeout=1) as ser:
-##    print("1")
-##    ser.write(b'setpar serout USB')
-##    print("2")
-##    ser.write(b'setmapping2 YUYV 320 240 20.0 JeVois DemoArUco')
-##    print("3")
-##    
-##    ser.write(b'setpar serlog None')
-##    print("4")
-##    ser.write(b'setpar serstyle Normal')
-##    print("5")
     while 1:
         
 
@@ -47,5 +37,5 @@ with serial.Serial(serdev, 115200, timeout=1) as ser:
         # Assign some named Python variables to the tokens:
         key, id, x, y, w, h = tok
         
-#        print ("Found ArUco {} at ({},{}) size {}x{}".format(id, x, y, w, h))
-        print (x)
+        print ("Found ArUco {} at ({},{}) size {}x{}".format(id, x, y, w, h))
+  #      print (x)
