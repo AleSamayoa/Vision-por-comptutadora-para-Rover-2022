@@ -1,4 +1,4 @@
-# Vision-por-comptutadora-para-Rover-2022
+# Vision por computadora para Rover 2022
 Repositorio de la programación que se utilizó para la creación de módulos de visión por computadora en ROS utilizando la RaspiCam, la cámara JeVois y el Microsoft Kinect. 
 
 # Documentación Imagen
