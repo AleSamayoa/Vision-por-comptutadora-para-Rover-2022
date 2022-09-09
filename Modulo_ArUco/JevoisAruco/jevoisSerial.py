@@ -10,8 +10,11 @@ serdev = '/dev/ttyACM0' # serial device of JeVois
   
 import serial
 import time
+import subprocess
   
 with serial.Serial(serdev, 115200, timeout=1) as ser:
+    e=subprocess.run(["./JeVoisArucoStream.sh"], shell=True)
+    print(e)
     while 1:
         
 
