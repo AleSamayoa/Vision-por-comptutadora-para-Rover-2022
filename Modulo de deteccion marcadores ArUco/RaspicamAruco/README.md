@@ -20,3 +20,5 @@ El programa guarda una matriz de calibración en otro archivo y esta se utiliza 
 De último se realiza ya el algoritmo de detección en el archivo vid_aruco.py. Este llama el diccionario de ArUco de OpenCV y realiza un proceso de thresholding para identificar
 los marcadores. La cámara toma video constante y realiza el algoritmo sobre esa imagen, obteniendo las coordenadas x, y & z  y el identificador del marcador. El dato del 
 identificador se imprime en la terminal y no se sobreescribe sobre la imagen, ya que no es útil para la plataforma de esa manera. 
+
+![Raspicamarucoimg](https://user-images.githubusercontent.com/69053381/195362411-41279dbe-e6cf-4ec8-ab97-49746b4bb1f8.png)
