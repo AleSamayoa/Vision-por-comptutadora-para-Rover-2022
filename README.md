@@ -1,7 +1,11 @@
 # Vision por computadora para Rover 2022
 Repositorio de la programación que se utilizó para la creación de módulos de visión por computadora en ROS utilizando la Raspberry Cam, la cámara JeVois y el Microsoft Kinect para el trabajo de graduación de Alejandra Samayoa.
 ## Sobre el proyecto
-Uno de los proyectos que se elaboró en la Universidad del Valle en el año 2022 fue una plataforma robótica móvil, el Rover UVG. El siguiente proyecto consiste el módulo de visión por computadora del rover unido, a este por ROS FoxyFitzRoy. El proyecto consistió en una comparación entre una Raspberry Cam y una cámara JeVois A33 para realizar un módulo de detección de marcadores ArUco y el envio de información de estos por ROS. Además, se querían realizar pruebas con una cámara Microsoft Kinect para Window v1. Todo esto se realizó sobre una instalación de Ubuntu 20.04 para que funcionara sobre una Raspberry Pi 4. 
+Uno de los proyectos que se elaboró en la Universidad del Valle en el año 2022 fue una plataforma robótica móvil, el Rover UVG. El siguiente proyecto consiste el módulo de visión por computadora del rover unido a este por ROS FoxyFitzRoy. El proyecto consistió en una comparación entre una Raspberry Cam y una cámara JeVois A33 para realizar un módulo de detección de marcadores ArUco y el envio de información de estos por ROS. 
+![arucowkinect](https://user-images.githubusercontent.com/69053381/195367274-7ed08c24-dcdf-46a8-a202-9b3dfe4d38da.png)
+
+Además, se querían realizar pruebas con una cámara Microsoft Kinect para Window v1. Todo esto se realizó sobre una instalación de Ubuntu 20.04 para que funcionara sobre una Raspberry Pi 4. 
+
 ## Estructura de Folders
 
 ### Documentación Imagen
@@ -15,5 +19,9 @@ Este folder consiste en el trabajo escrito que se realizó para este trabajo de 
 Uno de los módulos de visión por computadora que se realizó para el proyecto con las cámaras RaspiCam y JeVois fue el de detección de marcadores ArUco. En el folder se 
 encuentran los códigos que se utilizaron para realizar esto. Para la JeVois, simplemente se llamaba el módulo ya instalado en la imagen de la cámara mientras que sí fue 
 necesario realizar el algoritmo completo utilizando las librerías de OpenCV. Una vez se logró llamar a la cámara Kinect, también se realizó un módulo de detección de marcadores para la cámara utilizando el programa utilizado para la Raspberry Cam. 
+
+### Modulo de deteccion de rostros
+Además se realizó un módulo de detección de rostros utilizando las librerías de OpenCV para utilizarse con la Raspberry Cam y el Kinect. Este se pudiera conectar por medio de ROS si se quisiera también. 
+
 ### Stream con Raspberry Cam
 Se realizó también un módulo de transmisión en directo por medio de un servidor web para la cámara Raspberry Cam como funcionalidad adicional para el proyecto.
