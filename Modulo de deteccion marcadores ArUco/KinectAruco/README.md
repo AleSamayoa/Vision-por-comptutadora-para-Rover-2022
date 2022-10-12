@@ -20,3 +20,6 @@ El programa guarda una matriz de calibración en otro archivo y esta se utiliza 
 ### Detección de marcadores
 El programa de process.py detecta los marcadores de una sola imagen e imprime su identificación en la terminal. El algoritmo de detección en tiempo real del video se realiza en el archivo vid_aruco.py. Este llama el diccionario de ArUco de OpenCV y realiza un proceso de thresholding para identificar los marcadores. La cámara toma video constante y realiza el algoritmo sobre esa imagen, obteniendo las coordenadas x, y & z  y el identificador del marcador. El dato del 
 identificador se imprime en la terminal y no se sobreescribe sobre la imagen, ya que no es útil para la plataforma de esa manera. 
+
+
+![arucowkinect](https://user-images.githubusercontent.com/69053381/195363917-891c6c6a-bf96-4376-ade9-1aad4551611a.png)
