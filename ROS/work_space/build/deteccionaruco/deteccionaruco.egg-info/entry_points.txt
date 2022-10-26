@@ -1,0 +1,3 @@
+[console_scripts]
+aruco_odom = deteccionaruco.aruco_odom:main
+

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/deteccionaruco/deteccionaruco.egg-info
+writing ../../build/deteccionaruco/deteccionaruco.egg-info/PKG-INFO
+writing dependency_links to ../../build/deteccionaruco/deteccionaruco.egg-info/dependency_links.txt
+writing entry points to ../../build/deteccionaruco/deteccionaruco.egg-info/entry_points.txt
+writing requirements to ../../build/deteccionaruco/deteccionaruco.egg-info/requires.txt
+writing top-level names to ../../build/deteccionaruco/deteccionaruco.egg-info/top_level.txt
+writing manifest file '../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt'
+reading manifest file '../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt'
+writing manifest file '../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/work_space/build/deteccionaruco/build
+creating /home/ubuntu/work_space/build/deteccionaruco/build/lib
+creating /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco
+copying deteccionaruco/__init__.py -> /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco
+copying deteccionaruco/aruco_odom.py -> /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco
+running install
+running install_lib
+creating /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco
+copying /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco/__init__.py -> /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco
+copying /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco/aruco_odom.py -> /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco
+byte-compiling /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco/aruco_odom.py to aruco_odom.cpython-38.pyc
+running install_data
+creating /home/ubuntu/work_space/install/deteccionaruco/share/ament_index
+creating /home/ubuntu/work_space/install/deteccionaruco/share/ament_index/resource_index
+creating /home/ubuntu/work_space/install/deteccionaruco/share/ament_index/resource_index/packages
+copying resource/deteccionaruco -> /home/ubuntu/work_space/install/deteccionaruco/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/work_space/install/deteccionaruco/share/deteccionaruco
+running install_egg_info
+Copying ../../build/deteccionaruco/deteccionaruco.egg-info to /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco-0.0.0-py3.8.egg-info
+running install_scripts
+Installing aruco_odom script to /home/ubuntu/work_space/install/deteccionaruco/lib/deteccionaruco
+writing list of installed files to '/home/ubuntu/work_space/build/deteccionaruco/install.log'

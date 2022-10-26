@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/deteccionaruco/deteccionaruco.egg-info/PKG-INFO
+../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt
+../../build/deteccionaruco/deteccionaruco.egg-info/dependency_links.txt
+../../build/deteccionaruco/deteccionaruco.egg-info/entry_points.txt
+../../build/deteccionaruco/deteccionaruco.egg-info/requires.txt
+../../build/deteccionaruco/deteccionaruco.egg-info/top_level.txt
+../../build/deteccionaruco/deteccionaruco.egg-info/zip-safe
+deteccionaruco/__init__.py
+deteccionaruco/aruco_odom.py
+resource/deteccionaruco
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

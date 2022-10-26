@@ -1,0 +1,25 @@
+[2.961s] Invoking command in '/home/ubuntu/work_space/src/deteccionaruco': PYTHONPATH=/home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/deteccionaruco build --build-base /home/ubuntu/work_space/build/deteccionaruco/build install --prefix /home/ubuntu/work_space/install/deteccionaruco --record /home/ubuntu/work_space/build/deteccionaruco/install.log --single-version-externally-managed
+[3.988s] running egg_info
+[3.990s] writing ../../build/deteccionaruco/deteccionaruco.egg-info/PKG-INFO
+[3.991s] writing dependency_links to ../../build/deteccionaruco/deteccionaruco.egg-info/dependency_links.txt
+[3.992s] writing entry points to ../../build/deteccionaruco/deteccionaruco.egg-info/entry_points.txt
+[3.993s] writing requirements to ../../build/deteccionaruco/deteccionaruco.egg-info/requires.txt
+[3.994s] writing top-level names to ../../build/deteccionaruco/deteccionaruco.egg-info/top_level.txt
+[4.143s] reading manifest file '../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt'
+[4.147s] writing manifest file '../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt'
+[4.147s] running build
+[4.148s] running build_py
+[4.148s] copying deteccionaruco/aruco_odom.py -> /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco
+[4.150s] running install
+[4.153s] running install_lib
+[4.157s] copying /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco/aruco_odom.py -> /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco
+[4.160s] byte-compiling /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco/aruco_odom.py to aruco_odom.cpython-38.pyc
+[4.167s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (aruco_odom.py, line 63)
+[4.168s] running install_data
+[4.169s] running install_egg_info
+[4.175s] removing '/home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco-0.0.0-py3.8.egg-info' (and everything under it)
+[4.177s] Copying ../../build/deteccionaruco/deteccionaruco.egg-info to /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco-0.0.0-py3.8.egg-info
+[4.182s] running install_scripts
+[4.250s] Installing aruco_odom script to /home/ubuntu/work_space/install/deteccionaruco/lib/deteccionaruco
+[4.252s] writing list of installed files to '/home/ubuntu/work_space/build/deteccionaruco/install.log'
+[4.354s] Invoked command in '/home/ubuntu/work_space/src/deteccionaruco' returned '0': PYTHONPATH=/home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/deteccionaruco build --build-base /home/ubuntu/work_space/build/deteccionaruco/build install --prefix /home/ubuntu/work_space/install/deteccionaruco --record /home/ubuntu/work_space/build/deteccionaruco/install.log --single-version-externally-managed

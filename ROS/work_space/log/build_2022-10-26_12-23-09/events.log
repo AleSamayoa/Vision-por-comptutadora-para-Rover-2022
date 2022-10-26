@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.001038] (deteccionaruco) JobQueued: {'identifier': 'deteccionaruco', 'dependencies': OrderedDict()}
+[0.002043] (deteccionaruco) JobStarted: {'identifier': 'deteccionaruco'}
+[0.099375] (-) TimerEvent: {}
+[0.200472] (-) TimerEvent: {}
+[0.301252] (-) TimerEvent: {}
+[0.401950] (-) TimerEvent: {}
+[0.502673] (-) TimerEvent: {}
+[0.603360] (-) TimerEvent: {}
+[0.704031] (-) TimerEvent: {}
+[0.804709] (-) TimerEvent: {}
+[0.905401] (-) TimerEvent: {}
+[1.006055] (-) TimerEvent: {}
+[1.106803] (-) TimerEvent: {}
+[1.207931] (-) TimerEvent: {}
+[1.309162] (-) TimerEvent: {}
+[1.409841] (-) TimerEvent: {}
+[1.510650] (-) TimerEvent: {}
+[1.611329] (-) TimerEvent: {}
+[1.711983] (-) TimerEvent: {}
+[1.812646] (-) TimerEvent: {}
+[1.913324] (-) TimerEvent: {}
+[2.013991] (-) TimerEvent: {}
+[2.114651] (-) TimerEvent: {}
+[2.215345] (-) TimerEvent: {}
+[2.316049] (-) TimerEvent: {}
+[2.416756] (-) TimerEvent: {}
+[2.517468] (-) TimerEvent: {}
+[2.618210] (-) TimerEvent: {}
+[2.718973] (-) TimerEvent: {}
+[2.819836] (-) TimerEvent: {}
+[2.920978] (-) TimerEvent: {}
+[2.922943] (deteccionaruco) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/deteccionaruco', 'build', '--build-base', '/home/ubuntu/work_space/build/deteccionaruco/build', 'install', '--prefix', '/home/ubuntu/work_space/install/deteccionaruco', '--record', '/home/ubuntu/work_space/build/deteccionaruco/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/work_space/src/deteccionaruco', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'ubuntu', 'SSH_AGENT_PID': '1696', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/work_space/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'MANAGERPID': '1536', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/work_space/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:40202', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1773,unix/ubuntu:/tmp/.ICE-unix/1773', 'GDM_LANG': 'en', 'INVOCATION_ID': 'dcfaa1de987d41efa798f9c1c61634e2', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d099fc83_7466_4808_b859_55b7d080f4f0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.150', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/ubuntu', 'AMENT_PREFIX_PATH': '/home/ubuntu/work_space/install/deteccionaruco:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/work_space/build/deteccionaruco', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages:/home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.021172] (-) TimerEvent: {}
+[3.121913] (-) TimerEvent: {}
+[3.222589] (-) TimerEvent: {}
+[3.323280] (-) TimerEvent: {}
+[3.424020] (-) TimerEvent: {}
+[3.524688] (-) TimerEvent: {}
+[3.625314] (-) TimerEvent: {}
+[3.725958] (-) TimerEvent: {}
+[3.826650] (-) TimerEvent: {}
+[3.927388] (-) TimerEvent: {}
+[3.932496] (deteccionaruco) StdoutLine: {'line': b'running egg_info\n'}
+[3.934898] (deteccionaruco) StdoutLine: {'line': b'writing ../../build/deteccionaruco/deteccionaruco.egg-info/PKG-INFO\n'}
+[3.936023] (deteccionaruco) StdoutLine: {'line': b'writing dependency_links to ../../build/deteccionaruco/deteccionaruco.egg-info/dependency_links.txt\n'}
+[3.936906] (deteccionaruco) StdoutLine: {'line': b'writing entry points to ../../build/deteccionaruco/deteccionaruco.egg-info/entry_points.txt\n'}
+[3.937577] (deteccionaruco) StdoutLine: {'line': b'writing requirements to ../../build/deteccionaruco/deteccionaruco.egg-info/requires.txt\n'}
+[3.938113] (deteccionaruco) StdoutLine: {'line': b'writing top-level names to ../../build/deteccionaruco/deteccionaruco.egg-info/top_level.txt\n'}
+[4.027562] (-) TimerEvent: {}
+[4.089472] (deteccionaruco) StdoutLine: {'line': b"reading manifest file '../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt'\n"}
+[4.093414] (deteccionaruco) StdoutLine: {'line': b"writing manifest file '../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt'\n"}
+[4.094072] (deteccionaruco) StdoutLine: {'line': b'running build\n'}
+[4.094574] (deteccionaruco) StdoutLine: {'line': b'running build_py\n'}
+[4.095093] (deteccionaruco) StdoutLine: {'line': b'copying deteccionaruco/aruco_odom.py -> /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco\n'}
+[4.096272] (deteccionaruco) StdoutLine: {'line': b'running install\n'}
+[4.099496] (deteccionaruco) StdoutLine: {'line': b'running install_lib\n'}
+[4.103845] (deteccionaruco) StdoutLine: {'line': b'copying /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco/aruco_odom.py -> /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco\n'}
+[4.106459] (deteccionaruco) StdoutLine: {'line': b'byte-compiling /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco/aruco_odom.py to aruco_odom.cpython-38.pyc\n'}
+[4.113218] (deteccionaruco) StdoutLine: {'line': b'running install_data\n'}
+[4.115533] (deteccionaruco) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.121732] (deteccionaruco) StdoutLine: {'line': b"removing '/home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.123305] (deteccionaruco) StdoutLine: {'line': b'Copying ../../build/deteccionaruco/deteccionaruco.egg-info to /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco-0.0.0-py3.8.egg-info\n'}
+[4.127677] (-) TimerEvent: {}
+[4.128342] (deteccionaruco) StdoutLine: {'line': b'running install_scripts\n'}
+[4.199157] (deteccionaruco) StdoutLine: {'line': b'Installing aruco_odom script to /home/ubuntu/work_space/install/deteccionaruco/lib/deteccionaruco\n'}
+[4.200871] (deteccionaruco) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/work_space/build/deteccionaruco/install.log'\n"}
+[4.227911] (-) TimerEvent: {}
+[4.303837] (deteccionaruco) CommandEnded: {'returncode': 0}
+[4.329275] (-) TimerEvent: {}
+[4.377185] (deteccionaruco) JobEnded: {'identifier': 'deteccionaruco', 'rc': 0}
+[4.380425] (-) EventReactorShutdown: {}

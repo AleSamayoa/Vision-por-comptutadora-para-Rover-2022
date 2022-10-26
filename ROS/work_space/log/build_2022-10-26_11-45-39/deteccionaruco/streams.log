@@ -1,0 +1,37 @@
+[3.524s] Invoking command in '/home/ubuntu/work_space/src/deteccionaruco': PYTHONPATH=/home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/deteccionaruco build --build-base /home/ubuntu/work_space/build/deteccionaruco/build install --prefix /home/ubuntu/work_space/install/deteccionaruco --record /home/ubuntu/work_space/build/deteccionaruco/install.log --single-version-externally-managed
+[4.871s] running egg_info
+[4.873s] creating ../../build/deteccionaruco/deteccionaruco.egg-info
+[4.874s] writing ../../build/deteccionaruco/deteccionaruco.egg-info/PKG-INFO
+[4.875s] writing dependency_links to ../../build/deteccionaruco/deteccionaruco.egg-info/dependency_links.txt
+[4.876s] writing entry points to ../../build/deteccionaruco/deteccionaruco.egg-info/entry_points.txt
+[4.876s] writing requirements to ../../build/deteccionaruco/deteccionaruco.egg-info/requires.txt
+[4.877s] writing top-level names to ../../build/deteccionaruco/deteccionaruco.egg-info/top_level.txt
+[4.883s] writing manifest file '../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt'
+[5.030s] reading manifest file '../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt'
+[5.033s] writing manifest file '../../build/deteccionaruco/deteccionaruco.egg-info/SOURCES.txt'
+[5.034s] running build
+[5.035s] running build_py
+[5.035s] creating /home/ubuntu/work_space/build/deteccionaruco/build
+[5.036s] creating /home/ubuntu/work_space/build/deteccionaruco/build/lib
+[5.036s] creating /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco
+[5.037s] copying deteccionaruco/__init__.py -> /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco
+[5.037s] copying deteccionaruco/aruco_odom.py -> /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco
+[5.038s] running install
+[5.041s] running install_lib
+[5.045s] creating /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco
+[5.045s] copying /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco/__init__.py -> /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco
+[5.046s] copying /home/ubuntu/work_space/build/deteccionaruco/build/lib/deteccionaruco/aruco_odom.py -> /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco
+[5.048s] byte-compiling /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco/__init__.py to __init__.cpython-38.pyc
+[5.053s] byte-compiling /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco/aruco_odom.py to aruco_odom.cpython-38.pyc
+[5.054s] running install_data
+[5.057s] creating /home/ubuntu/work_space/install/deteccionaruco/share/ament_index
+[5.057s] creating /home/ubuntu/work_space/install/deteccionaruco/share/ament_index/resource_index
+[5.058s] creating /home/ubuntu/work_space/install/deteccionaruco/share/ament_index/resource_index/packages
+[5.058s] copying resource/deteccionaruco -> /home/ubuntu/work_space/install/deteccionaruco/share/ament_index/resource_index/packages
+[5.059s] copying package.xml -> /home/ubuntu/work_space/install/deteccionaruco/share/deteccionaruco
+[5.059s] running install_egg_info
+[5.065s] Copying ../../build/deteccionaruco/deteccionaruco.egg-info to /home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages/deteccionaruco-0.0.0-py3.8.egg-info
+[5.070s] running install_scripts
+[5.141s] Installing aruco_odom script to /home/ubuntu/work_space/install/deteccionaruco/lib/deteccionaruco
+[5.142s] writing list of installed files to '/home/ubuntu/work_space/build/deteccionaruco/install.log'
+[5.245s] Invoked command in '/home/ubuntu/work_space/src/deteccionaruco' returned '0': PYTHONPATH=/home/ubuntu/work_space/install/deteccionaruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/deteccionaruco build --build-base /home/ubuntu/work_space/build/deteccionaruco/build install --prefix /home/ubuntu/work_space/install/deteccionaruco --record /home/ubuntu/work_space/build/deteccionaruco/install.log --single-version-externally-managed
