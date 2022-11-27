@@ -23,7 +23,7 @@ necesario realizar el algoritmo completo utilizando las librerías de OpenCV. Un
 ### Modulo de deteccion de rostros
 Además se realizó un módulo de detección de rostros utilizando las librerías de OpenCV para utilizarse con la Raspberry Cam y el Kinect. Este se pudiera conectar por medio de ROS si se quisiera también. 
 
-### ROS
+### ROS/work_space
 La unión del módulo de visión por computadora al resto de la plataforma robótica se realizó por medio de un nodo publicador de ROS 2 FoxyFitzRoy. El espacio de trabajo se encuentra en este folder. 
 ### Stream con Raspberry Cam
 Se realizó también un módulo de transmisión en directo por medio de un servidor web para la cámara Raspberry Cam como funcionalidad adicional para el proyecto.
