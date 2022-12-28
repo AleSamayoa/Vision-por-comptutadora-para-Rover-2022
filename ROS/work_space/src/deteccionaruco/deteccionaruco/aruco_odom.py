@@ -23,7 +23,7 @@ ser= serial.Serial(
 	inter_byte_timeout=0.1)
 ser.close()
 ser.open()
-e=subprocess.run(["bash ~/Documents/FilesForRaspi/JevoisAruco/JeVoisArucoStream.sh"], shell=True)
+e=subprocess.run(["bash ~/JeVoisArucoStream.sh"], shell=True)
 
 
 # ----------- FUNCIONES ----------- #
