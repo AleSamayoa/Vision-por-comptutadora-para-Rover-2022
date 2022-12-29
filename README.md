@@ -7,7 +7,8 @@ Uno de los proyectos que se elaboró en la Universidad del Valle en el año 2022
 Además, se querían realizar pruebas con una cámara Microsoft Kinect para Window v1. Todo esto se realizó sobre una instalación de Ubuntu 20.04 para que funcionara sobre una Raspberry Pi 4. 
 
 ## Estructura de Folders
-
+### Caracteristicas de JeVois Smart Vision Camera
+Se realizaron pruebas para detallar las características de la cámara. Estas se detallaron en el documento de Excel dentro de la carpeta. 
 ### Documentación Imagen
 Se realizó una instalación de un sistema operativo para Raspberry Pi que cuenta con ROS, Linux Ubuntu 20.04 y los programas necesarios para el procesamiento de los módulos de visión por computadora. En el folder de Documentación de Imagen se tienen las guías de uso y de instalación desde cero.
 
