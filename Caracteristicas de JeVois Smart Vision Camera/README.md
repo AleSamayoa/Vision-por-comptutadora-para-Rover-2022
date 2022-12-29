@@ -8,4 +8,4 @@ Para comprobar la confiabilidad de los datos obtenidos por la cámara JeVois, ob
 
 El documento lista las medias de las medidas obtenidas y las gráficas de las otras carácteristicas. Una de las pruebas realizadas se puede ver en la imagen a continuación. 
 
-![pruebax](https://user-images.githubusercontent.com/69053381/209889543-bd427d57-4a4d-49df-81f5-37714831a47b.jpg)
+![pruebaz](https://user-images.githubusercontent.com/69053381/209889584-b0dcc726-64fb-4029-8cee-b5cc04f8cc2e.jpg)
