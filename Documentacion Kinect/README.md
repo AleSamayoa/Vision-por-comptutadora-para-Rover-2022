@@ -1,0 +1,1 @@
+En este folder se encuentra la documentación detallada para el uso de la cámara Kinect para Windows. Se puede encontrar información de su uso en Windows 11, la instalación de drivers en sistema Linux y fotos de ejemplos.
